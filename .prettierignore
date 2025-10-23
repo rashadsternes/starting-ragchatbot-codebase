@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Python
+backend/
+*.py
+
+# Build outputs
+dist/
+build/
+
+# Version control
+.git/
+
+# ChromaDB
+chroma_db/
+
+# Documentation (generated)
+*.md
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
