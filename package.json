@@ -1,0 +1,26 @@
+{
+  "name": "ui_feature",
+  "version": "1.0.0",
+  "description": "A Retrieval-Augmented Generation (RAG) system designed to answer questions about course materials using semantic search and AI-powered responses.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "format": "prettier --write \"frontend/**/*.{js,html,css}\"",
+    "format:check": "prettier --check \"frontend/**/*.{js,html,css}\"",
+    "lint": "eslint \"frontend/**/*.js\"",
+    "lint:fix": "eslint \"frontend/**/*.js\" --fix",
+    "quality:check": "npm run format:check && npm run lint",
+    "quality:fix": "npm run format && npm run lint:fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.38.0",
+    "prettier": "^3.6.2"
+  }
+}
