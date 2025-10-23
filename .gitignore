@@ -20,6 +20,7 @@ ENV/
 
 # ChromaDB
 backend/chroma_db/
+backend/test_chroma_db/
 
 # Uploads
 uploads/
